@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.home-root {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: #111;
+  position: relative;
+}
+
+.home-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 30px;
+}
+
+.home-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #6ef2b1;
+  font-weight: bold;
+}
+
+.home-contact {
+  font-size: 1rem;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.home-center {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 60px;
+}
+
+.home-intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.home-cool {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 0;
+}
